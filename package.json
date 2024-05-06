@@ -4,8 +4,7 @@
   "description": "Simple bot WhatsApp with adiwajshing baileys",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js --autoread",
-    "test": "node test.js"
+    "start": "npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs"
   },
   "repository": {
     "type": "git",
